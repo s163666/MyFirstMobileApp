@@ -1,4 +1,6 @@
-﻿namespace MyFirstMobileApp
+﻿using MyFirstMobileApp.ViewViewModels.Main;
+
+namespace MyFirstMobileApp
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new MainView();
         }
     }
 }

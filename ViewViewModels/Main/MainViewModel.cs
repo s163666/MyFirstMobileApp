@@ -1,13 +1,16 @@
-﻿using MyFirstMobileApp.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MyFirstMobileApp.Models;
+using MyFirstMobileApp.ViewModels;
 
 namespace MyFirstMobileApp.ViewViewModels.Main
 {
-    internal class MainViewModel : BaseViewModel 
+    public class MainViewModel : BaseViewModel 
+
     {
+        public String StackLayoutTitle { get; set; } = TitleMain.TitleStackLayout;
+        public MainViewModel()
+        {
+            Title = TitleMain.appTitle;
+
+        }
     }
 }

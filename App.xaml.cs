@@ -8,7 +8,7 @@ namespace MyFirstMobileApp
         {
             InitializeComponent();
 
-            MainPage = new MainView();
+            MainPage = new NavigationPage(new MainView());
         }
     }
 }

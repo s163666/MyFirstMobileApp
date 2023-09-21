@@ -10,13 +10,10 @@ namespace MyFirstMobileApp.Models
     {
         public static String appTitle { get; set; } = "Main Page View";
         //public string ButtonText { get; set; } = "Stack Layout";
-        public static String TitleStackLayout {get; set;} = "Stack Layout";
-
-        public static String TitleStackButton01 {get; set;} = "Stack Layout";
-        
-        public static String TitleStackButton02 {get; set;} = "Stack Layout";
-        
-        public static String TitleStackButton03 {get; set;} = "Stack Layout";
+        public static String TitleStackLayout { get; set; } = "Stack Layout";
+        public static String TitleButton01 { get; set; } = "Button 0, 1";
+        public static String TitleButton10 { get; set; } = "Button 1, 0";
+        public static String TitleButton11 { get; set; } = "Button 1, 1";
 
     }
 }

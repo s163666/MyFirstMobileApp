@@ -9,10 +9,6 @@
             HorizontalOptions="Center" />
 
 
-        <Button Grid.Row="0"
-                Grid.Column="0"
-                Text="(Binding Layouts)"
-                Command="Binding OnLayoutsClicked" />
 
     </VerticalStackLayout>
 </ContentView>

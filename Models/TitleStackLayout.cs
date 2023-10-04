@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyFirstMobileApp.Models
 {
-    public class TitleLayout
+    internal class TitleStackLayout
     {
         //This is the Model
 

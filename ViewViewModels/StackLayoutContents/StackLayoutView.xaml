@@ -3,43 +3,50 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyFirstMobileApp.ViewViewModels.StackLayoutContents.StackLayoutView"
              Title="StackLayoutView">
+    <!--Title ="{Binding Title}">-->
 
-    <!--This is the first nested stack layout -->
-    <StackLayout>
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="3" />
+        </Style>
+    </ContentPage.Resources>
 
-        <!--Creates, colors, and positions the Light Blue box -->
-        <StackLayout Margin="60" 
-            VerticalOptions ="Center"
-            HorizontalOptions="Center" >
+    <!-- Creates the VerticalStackLayout for all the buttons - 3 rows; 2 columns-->
+    <VerticalStackLayout>
+        <Grid Margin="25, 35, 20, 20">
 
-            <BoxView WidthRequest="150"
-                HeightRequest="150"
-                Color="LightBlue" />
+            <Grid.RowDefinitions>
+                <RowDefinition Height="55"/>
+                <RowDefinition Height="55"/>
+                <RowDefinition Height="55"/>
+            </Grid.RowDefinitions>
 
-        </StackLayout>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
 
-        <!--Creates, colors, and positions the Light Green box -->
-        <StackLayout
-            VerticalOptions ="Center"
-            HorizontalOptions="EndAndExpand" >
+            <!-- References the binded data from the ViewModel, with BindingContext from StackLayoutView.xaml.cs-->
+            <Button Grid.Row="0"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    Text="{Binding BtnStackLayout}"/>
 
-            <BoxView WidthRequest="190"
-                HeightRequest="90"
-                Color="LightGreen" />
+            <Button Grid.Row="1"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="1"
+                    Text="{Binding BtnVerticalStack}"/>
 
-        </StackLayout>
+            <Button Grid.Row="1"
+                    Grid.Column="1"
+                    Grid.ColumnSpan="1"
+                    Text="{Binding BtnHorizontalStack}"/>
 
-        <!--Creates, colors, and positions the Light Pink box -->
-        <StackLayout 
-             VerticalOptions ="EndAndExpand"
-             HorizontalOptions="Start" >
+            <Button Grid.Row="2"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    Text="{Binding BtnAbsoluteLayout}"/>
 
-            <BoxView WidthRequest="100"
-                HeightRequest="200"
-                Color="LightPink" />
-
-        </StackLayout>
-        
-    </StackLayout>
-
+        </Grid>
+    </VerticalStackLayout>
 </ContentPage>

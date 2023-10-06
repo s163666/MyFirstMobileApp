@@ -28,6 +28,7 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+		<LangVersion>preview</LangVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -53,8 +54,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="ViewViewModels\StackLayoutBlocks\StackLayout.xaml.cs">
-	    <DependentUpon>StackLayout.xaml</DependentUpon>
+	  <Compile Update="ViewViewModels\StackLayoutBlocks\StackLayout-BlockView.xaml.cs">
+	    <DependentUpon>StackLayout-BlockView.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
@@ -62,7 +63,7 @@
 	  <MauiXaml Update="ViewViewModels\Main\MainView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ViewViewModels\StackLayoutBlocks\StackLayout.xaml">
+	  <MauiXaml Update="ViewViewModels\StackLayoutBlocks\StackLayout-BlockView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="ViewViewModels\StackLayoutContents\StackLayoutView.xaml">

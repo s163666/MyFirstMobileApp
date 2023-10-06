@@ -1,4 +1,6 @@
 using MyFirstMobileApp.Models;
+using MyFirstMobileApp.ViewViewModels.StackLayoutBlocks;
+using System.Windows.Input;
 
 namespace MyFirstMobileApp.ViewViewModels.StackLayoutContents;
 
@@ -12,7 +14,19 @@ public class StackLayoutViewModel : ContentView
     public String BtnHorizontalStack { get; set; } = TitleLayout.HorizontalStackTitle;
     public String BtnAbsoluteLayout { get; set; } = TitleLayout.AbsoluteLayoutTitle;
 
+    public string Layouts { get; set; }
+
+    public ICommand OnLayoutsClicked { get; set; }
+
+
     public StackLayoutViewModel()
-	{
+    {
+        //Set Commands
+        OnLayoutsClicked = new Command(OnLayoutsClickedAsync);
+    }
+
+    private async void OnLayoutsClickedAsync()
+    {
+        await Application.Current.MainPage.Navigation.PushAsync(new StackLayout_BlockView());
     }
 }

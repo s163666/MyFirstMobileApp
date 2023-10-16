@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyFirstMobileApp.ViewViewModels.StackLayoutBlocks.StackLayout_BlockView"
-             Title="StackLayout_Blockiew">
-
+             x:Class="MyFirstMobileApp.ViewViewModels.Layouts.StackLayoutBlocks.StackLayout_BlockView"
+             Title="StackLayout-BlockView">
     <!--This is the View -->
+    
     <!--This is the first nested stack layout -->
     <StackLayout>
 
         <!--Creates, colors, and positions the Light Blue box -->
         <StackLayout Margin="60" 
-            VerticalOptions ="Center"
-            HorizontalOptions="Center" >
+        VerticalOptions ="Center"
+        HorizontalOptions="Center" >
 
             <BoxView WidthRequest="150"
-                HeightRequest="150"
-                Color="LightBlue" />
+            HeightRequest="150"
+            Color="LightBlue" />
 
         </StackLayout>
 
         <!--Creates, colors, and positions the Light Green box -->
         <StackLayout
-            VerticalOptions ="Center"
-            HorizontalOptions="EndAndExpand" >
+        VerticalOptions ="Center"
+        HorizontalOptions="EndAndExpand" >
 
             <BoxView WidthRequest="190"
-                HeightRequest="90"
-                Color="LightGreen" />
+            HeightRequest="90"
+            Color="LightGreen" />
 
         </StackLayout>
 
         <!--Creates, colors, and positions the Light Pink box -->
         <StackLayout 
-             VerticalOptions ="EndAndExpand"
-             HorizontalOptions="Start" >
+         VerticalOptions ="EndAndExpand"
+         HorizontalOptions="Start" >
 
             <BoxView WidthRequest="100"
-                HeightRequest="200"
-                Color="LightPink" />
+            HeightRequest="200"
+            Color="LightPink" />
 
         </StackLayout>
 
     </StackLayout>
-
+    
 </ContentPage>

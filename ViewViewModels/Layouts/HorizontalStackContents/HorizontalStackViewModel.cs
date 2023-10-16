@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyFirstMobileApp.ViewViewModels.StackLayoutBlocks
+namespace MyFirstMobileApp.ViewViewModels.Layouts.HorizontalStackContents
 {
-    public class StackLayoutBlocksViewModel()
+    internal class HorizontalStackViewModel
     {
-        
     }
 }

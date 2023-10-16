@@ -1,5 +1,6 @@
 ﻿using MyFirstMobileApp.Models;
 using MyFirstMobileApp.ViewModels;
+using MyFirstMobileApp.ViewViewModels.Layouts.StackLayoutContents;
 using System.Windows.Input;
 
 namespace MyFirstMobileApp.ViewViewModels.Main;
@@ -26,7 +27,7 @@ public class MainViewModel : BaseViewModel
 
     private async void OnLayoutsClickedAsync()
     {
-        await Application.Current.MainPage.Navigation.PushAsync(new StackLayoutContents.StackLayoutView());
+        await Application.Current.MainPage.Navigation.PushAsync(new StackLayoutView());
     }
 
 }

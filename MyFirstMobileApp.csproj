@@ -54,19 +54,37 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="ViewViewModels\StackLayoutBlocks\StackLayout-BlockView.xaml.cs">
-	    <DependentUpon>StackLayout-BlockView.xaml</DependentUpon>
+	  <Compile Update="ViewViewModels\Layouts\HorizontalStackContents\HorizontalStackView.xaml.cs">
+	    <DependentUpon>HorizontalStackView.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="ViewViewModels\Layouts\StackLayoutBlocks\StackLayout_BlockView.xaml.cs">
+	    <DependentUpon>StackLayout_BlockView.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="ViewViewModels\Layouts\StackLayoutContents\StackLayoutView.xaml.cs">
+	    <DependentUpon>StackLayoutView.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="ViewViewModels\Layouts\AbsoluteLayoutContents\AbsoluteLayoutView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ViewViewModels\Layouts\FlexLayoutContents\FlexLayoutView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ViewViewModels\Layouts\HorizontalStackContents\HorizontalStackView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ViewViewModels\Layouts\VerticalStackContents\VerticalStackView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="ViewViewModels\Main\MainView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ViewViewModels\StackLayoutBlocks\StackLayout-BlockView.xaml">
+	  <MauiXaml Update="ViewViewModels\Layouts\StackLayoutBlocks\StackLayout_BlockView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ViewViewModels\StackLayoutContents\StackLayoutView.xaml">
+	  <MauiXaml Update="ViewViewModels\Layouts\StackLayoutContents\StackLayoutView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

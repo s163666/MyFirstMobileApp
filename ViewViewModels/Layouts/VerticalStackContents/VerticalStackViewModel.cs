@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyFirstMobileApp.Models
+namespace MyFirstMobileApp.ViewViewModels.Layouts.VerticalStackContents
 {
-    internal class TitleStackLayout
+    internal class VerticalStackViewModel
     {
-        
     }
 }

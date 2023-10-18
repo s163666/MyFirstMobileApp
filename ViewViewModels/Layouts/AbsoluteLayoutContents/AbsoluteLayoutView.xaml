@@ -6,9 +6,97 @@
 
     <!--This is the View -->
 
-    <!--This is the first nested stack layout -->
+    <!--X, Y, Length, Width -->
     <AbsoluteLayout>
-        
+        <Label Text="Absolute!"
+           		AbsoluteLayout.LayoutBounds="0.5, 0.05, 100, 25"
+           		AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <BoxView Color="Green"
+             	AbsoluteLayout.LayoutBounds="0.09, 0.1, 90, 40"
+             	AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <BoxView Color="DeepPink"
+             	AbsoluteLayout.LayoutBounds="0.36, 0.1, 90, 40"
+             	AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <BoxView Color="Beige"
+        	    AbsoluteLayout.LayoutBounds="0.63, 0.1, 90, 40"
+        	    AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <BoxView Color="SkyBlue"
+   	            AbsoluteLayout.LayoutBounds="0.90, 0.1, 90, 40"
+   	            AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <BoxView Color="Aquamarine"
+        	     AbsoluteLayout.LayoutBounds="0.09, 0.3, 90, 40"
+        	     AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <BoxView Color="Maroon"
+        	     AbsoluteLayout.LayoutBounds="0.36, 0.3, 90, 40"
+        	     AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <BoxView Color="CadetBlue"
+   	             AbsoluteLayout.LayoutBounds="0.63, 0.3, 90, 40"
+   	             AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <BoxView Color="MediumPurple"
+                 AbsoluteLayout.LayoutBounds="0.90, 0.3, 90, 40"
+                 AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <BoxView Color="GreenYellow"
+        	     AbsoluteLayout.LayoutBounds="0.09, 0.5, 90, 40"
+        	     AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <BoxView Color="Aquamarine"
+        	     AbsoluteLayout.LayoutBounds="0.36, 0.5, 90, 40"
+        	     AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <BoxView Color="DarkGreen"
+   	             AbsoluteLayout.LayoutBounds="0.63, 0.5, 90, 40"
+   	             AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <BoxView Color="SkyBlue"
+                 AbsoluteLayout.LayoutBounds="0.90, 0.5, 90, 40"
+                 AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <Label Text="01"
+               TextColor= "White"
+           	   AbsoluteLayout.LayoutBounds="0.14, 0.12, 20, 15"
+           	   AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <Label Text="02"
+               TextColor= "White"
+      	       AbsoluteLayout.LayoutBounds="0.38, 0.12, 20, 15"
+      	       AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <Label Text="03"
+               TextColor= "White"
+ 	           AbsoluteLayout.LayoutBounds="0.62, 0.12, 20, 15"
+ 	           AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <Label Text="04"
+               TextColor= "White"
+               AbsoluteLayout.LayoutBounds="0.87, 0.12, 20, 15"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <Label Text="05"
+               TextColor= "White"
+      	       AbsoluteLayout.LayoutBounds="0.14, 0.31, 20, 15"
+      	       AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <Label Text="06"
+               TextColor= "White"
+ 	           AbsoluteLayout.LayoutBounds="0.38, 0.31, 20, 15"
+ 	           AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <Label Text="07"
+               TextColor= "White"
+               AbsoluteLayout.LayoutBounds="0.62, 0.31, 20, 15"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <Label Text="08"
+               TextColor= "White"
+               AbsoluteLayout.LayoutBounds="0.87, 0.31, 20, 15"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <Label Text="05"
+               TextColor= "White"
+  	           AbsoluteLayout.LayoutBounds="0.14, 0.50, 20, 15"
+  	           AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <Label Text="06"
+               TextColor= "White"
+               AbsoluteLayout.LayoutBounds="0.38, 0.50, 20, 15"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <Label Text="07"
+               TextColor= "White"
+               AbsoluteLayout.LayoutBounds="0.62, 0.50, 20, 15"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <Label Text="08"
+               TextColor= "White"
+               FontAttributes="Bold"
+               AbsoluteLayout.LayoutBounds="0.87, 0.50, 20, 15"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
     </AbsoluteLayout>
     
 </ContentPage>

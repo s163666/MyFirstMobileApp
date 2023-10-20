@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//Model
-
-namespace MyFirstMobileApp.Models
+namespace MyFirstMobileApp.ViewViewModels.AppImages.URIContents
 {
-    public class TitleBlocks
+    class URIViewModel
     {
-        //NO content for this project
     }
 }

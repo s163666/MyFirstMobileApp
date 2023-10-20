@@ -3,10 +3,36 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyFirstMobileApp.ViewViewModels.Layouts.HorizontalStackContents.HorizontalStackView"
              Title="HorizontalStackView">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+    <HorizontalStackLayout>
+        
+        <HorizontalStackLayout 
+            VerticalOptions="Center"
+            HorizontalOptions="Center">
+
+            <BoxView WidthRequest="105"
+                HeightRequest="105"
+                Color="Red" />
+
+            <BoxView WidthRequest="105"
+                HeightRequest="105"
+                Color="Green" />
+
+            <BoxView WidthRequest="105"
+                HeightRequest="105"
+                Color="Blue" />
+        </HorizontalStackLayout>
+
+        <StackLayout 
+            VerticalOptions="End"
+            HorizontalOptions="End">
+
+            <BoxView WidthRequest="100"
+                HeightRequest="100"
+                Color="Purple" />
+        </StackLayout>
+
+    </HorizontalStackLayout>
+
+
 </ContentPage>

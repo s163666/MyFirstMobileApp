@@ -31,24 +31,24 @@ namespace MyFirstMobileApp.ViewViewModels.Collections.CollectionsView
             OnCollectionViewIconClicked = new Command(OnCollectionViewIconClickedAsync);
         }
 
+        //Navigate to the different pages
         private async void OnCollectionViewClickedAsync(object obj)
         {
             await Application.Current.MainPage.Navigation.PushAsync(new MadagascarCollectionView());
         }
-
         private async void OnCollectionWImagesViewClickedAsync(object obj)
         {
             await Application.Current.MainPage.Navigation.PushAsync(new MadCollectionWImagesView());
         }
-
         private async void OnCollectionViewButtonsClickedAsync(object obj)
         {
             await Application.Current.MainPage.Navigation.PushAsync(new UpdatableCollectionWButtonsView());
         }
-
         private async void OnCollectionViewIconClickedAsync(object obj)
         {
-            //await Application.Current.MainPage.Navigation.PushAsync(new UpdatableCollectionWIconsView());
+            await Application.Current.MainPage.Navigation.PushAsync(new UpdatableCollectionWIconsView());
         }
+
     }
+
 }

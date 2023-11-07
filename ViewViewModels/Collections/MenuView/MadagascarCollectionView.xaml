@@ -15,8 +15,8 @@
         <!-- View: Separator Line -->
         <BoxView HeightRequest="2" BackgroundColor="#000000"/>
 
-        <!-- View: CollectionView to display Marvel movies -->
-        <!-- ViewModel: Binding to the "MarvelMoviesCollection" in the ViewModel -->
+        <!-- View: CollectionView to display Madagascar movies -->
+        <!-- ViewModel: Binding to the "MadagascarMoviesCollection" in the ViewModel -->
         <CollectionView x:Name="ItemsListView"
                                 ItemsSource="{Binding MadagascarMoviesCollection}" 
                                 SelectionMode="None">

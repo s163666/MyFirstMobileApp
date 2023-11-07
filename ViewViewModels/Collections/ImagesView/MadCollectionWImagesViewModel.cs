@@ -11,8 +11,10 @@ using System.Threading.Tasks;
 
 namespace MyFirstMobileApp.ViewViewModels.Collections.ImagesView
 {
+
     internal class MadCollectionWImagesViewModel : BaseViewModel
     {
+
         public ObservableCollection<CharacterInfo> MadagascarCollection { get; }
 
         private readonly List<CharacterInfo> _madagascar;
@@ -42,5 +44,7 @@ namespace MyFirstMobileApp.ViewViewModels.Collections.ImagesView
                 Debug.WriteLine(ex);
             }
         }
+
     }
+
 }

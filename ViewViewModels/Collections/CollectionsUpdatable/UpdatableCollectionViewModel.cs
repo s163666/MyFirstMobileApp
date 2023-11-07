@@ -13,6 +13,7 @@ using System.Windows.Input;
 
 namespace MyFirstMobileApp.ViewViewModels.Collections.CollectionsUpdatable
 {
+
     public class UpdateableCollectionViewModel : BaseViewModel
     {
         public ObservableCollection<MadagascarMovies> MovieCollection { get; set; }
@@ -39,7 +40,7 @@ namespace MyFirstMobileApp.ViewViewModels.Collections.CollectionsUpdatable
                 //Clear the existing collection
                 MovieCollection.Clear();
 
-                //Get a list of Marvel movies and add them to the collection
+                //Get a list of Madagascar movies and add them to the collection
                 var marvelMovies = MadagascarMovies.GetMovies();
                 foreach (var movie in marvelMovies)
                 {
@@ -115,4 +116,5 @@ namespace MyFirstMobileApp.ViewViewModels.Collections.CollectionsUpdatable
 #pragma warning restore CA1416 // Validate platform compatibility
 
     }
+
 }

@@ -23,14 +23,14 @@
         ///<summary>
         /// Retrieves a list of sample character data, each representing an actor's name, an image URL, and the character they portray.
         ///</summary>
-        ///<returns>A list of ActorCharacterInfo objects containing sample data.</returns>
+        ///<returns>A list of CharacterInfo objects containing sample data.</returns>
         public static List<CharacterInfo> GetSampleCharacterData()
         {
             var actors = new List<CharacterInfo>
             {
                 // Create ActorCharacterInfo objects with sample data
                 new CharacterInfo("David Schwimmer", ImageSource.FromFile("Images/MAD/melvin.jpg"), "Melvin"),
-                new CharacterInfo("Sacha Baron Cohen", ImageSource.FromFile("Images/MAD/kingJulien.jpg"), "King Julien"),
+                new CharacterInfo("Sacha Baron Cohen", ImageSource.FromFile("Images/MAD/king.jpg"), "King Julien"),
                 new CharacterInfo("Chris Rock", ImageSource.FromFile("Images/MAD/marty.jpg"), "Marty"),
                 new CharacterInfo("Ben Stiller", ImageSource.FromFile("Images/MAD/alex.jpg"), "Alex"),
                 new CharacterInfo("Jada Pinkett Smith", ImageSource.FromFile("Images/MAD/gloria.jpg"), "Gloria")

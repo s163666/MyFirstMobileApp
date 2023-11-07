@@ -52,6 +52,7 @@
 	<ItemGroup>
 	  <None Remove="Resources\Images\MAD\alex.jpg" />
 	  <None Remove="Resources\Images\MAD\gloria.jpg" />
+	  <None Remove="Resources\Images\MAD\king.jpg" />
 	  <None Remove="Resources\Images\MAD\kingJulien.jpg" />
 	  <None Remove="Resources\Images\MAD\marty.jpg" />
 	  <None Remove="Resources\Images\MAD\melvin.jpg" />
@@ -60,6 +61,7 @@
 	<ItemGroup>
 	  <MauiImage Include="Resources\Images\MAD\alex.jpg" />
 	  <MauiImage Include="Resources\Images\MAD\gloria.jpg" />
+	  <MauiImage Include="Resources\Images\MAD\king.jpg" />
 	  <MauiImage Include="Resources\Images\MAD\marty.jpg" />
 	  <MauiImage Include="Resources\Images\MAD\melvin.jpg" />
 	</ItemGroup>
@@ -73,6 +75,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="ViewViewModels\Collections\CollectionsUpdatable\UpdatableCollectionWIconsView.xaml.cs">
+	    <DependentUpon>UpdatableCollectionWIconsView.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="ViewViewModels\Layouts\HorizontalStackContents\HorizontalStackView.xaml.cs">
 	    <DependentUpon>HorizontalStackView.xaml</DependentUpon>
 	  </Compile>
@@ -104,6 +109,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="ViewViewModels\Collections\CollectionsUpdatable\UpdatableCollectionWButtonsView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ViewViewModels\Collections\CollectionsUpdatable\UpdatableCollectionWIconsView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="ViewViewModels\Collections\CollectionsView\CollectionsMenuView.xaml">

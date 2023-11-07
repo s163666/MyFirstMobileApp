@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace MyFirstMobileApp.ViewViewModels.Collections.MenuView
 {
+
     public class MadagascarCollectionViewModel : BaseViewModel
     {
         // ViewModel: Private fields
@@ -53,4 +54,5 @@ namespace MyFirstMobileApp.ViewViewModels.Collections.MenuView
             }
         }
     }
+
 }

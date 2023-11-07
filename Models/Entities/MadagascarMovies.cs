@@ -8,11 +8,13 @@ namespace MyFirstMobileApp.Models.Entities
 {
     public class MadagascarMovies
     {
+
         public string NameofMovie { get; set; }
 
-        //ImageButtons
+        //ImageButtons - Used for UpdatableCollections
         public ImageSource EditButton { get; } = Buttons.ButtonEdit;
         public ImageSource DeleteButton { get; } = Buttons.ButtonDelete;
+
 
         public MadagascarMovies() { }
 
@@ -21,6 +23,7 @@ namespace MyFirstMobileApp.Models.Entities
             NameofMovie = name;
         }
 
+        //Used for Collections
         public static List<MadagascarMovies> GetMovies()
         {
             return new List<MadagascarMovies>
@@ -33,5 +36,7 @@ namespace MyFirstMobileApp.Models.Entities
                 new MadagascarMovies("Madagascar 4")
             };
         }
+
     }
+
 }

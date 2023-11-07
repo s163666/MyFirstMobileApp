@@ -32,7 +32,7 @@
                             <!-- FlexLayout with NameOfMovie and buttons -->
                             <FlexLayout AlignItems="Start">
                                 <Label Text="{Binding NameofMovie, Mode=TwoWay}" FontAttributes="Bold"
-                                       HorizontalTextAlignment="Start" TextColor="Black" FontSize="Medium"
+                                       HorizontalTextAlignment="Start" TextColor="Black" FontSize="Small"
                                        FlexLayout.Grow="1" />
 
                                 <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
@@ -54,3 +54,4 @@
         </RefreshView>
     </StackLayout>
 </ContentPage>
+    

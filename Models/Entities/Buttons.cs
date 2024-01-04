@@ -6,19 +6,21 @@ using System.Threading.Tasks;
 
 namespace MyFirstMobileApp.Models.Entities
 {
+
     public class Buttons
     {
         //Edit,  Delete & Submit
-        public static ImageSource ButtonEdit { get; } = ImageSource.FromFile("Images/ ImageButtons/iconsedit.png");
-        public static ImageSource ButtonDelete { get; } = ImageSource.FromFile("Images/ ImageButtons/iconsdelete.png");
-        public static ImageSource ButtonSubmit { get; } = ImageSource.FromFile("Images/ ImageButtons/buttonsubmit.png");
+        public static ImageSource ButtonEdit { get; } = ImageSource.FromFile("Resources/Images/ImageButtons/iconsedit.png");
+        public static ImageSource ButtonDelete { get; } = ImageSource.FromFile("Resources/Images/ImageButtons/iconsdelete.png");
+        public static ImageSource ButtonSubmit { get; } = ImageSource.FromFile("Resources/Images/ImageButtons/buttonsubmit.png");
 
         //DatePicker
-        public static ImageSource ButtonDatePickerBlue { get; } = ImageSource.FromFile("Images/ ImageButtons/dpbuttonblue.png");
-        public static ImageSource ButtonDatePickerRed { get; } = ImageSource.FromFile("Images/ ImageButtons/dpbuttonred.png");
+        public static ImageSource ButtonDatePickerBlue { get; } = ImageSource.FromFile("Resources/Images/ImageButtons/dpbuttonblue.png");
+        public static ImageSource ButtonDatePickerRed { get; } = ImageSource.FromFile("Resources/Images/ImageButtons/dpbuttonred.png");
 
         //Picker
-        public static ImageSource ButtonPickerBlue { get; } = ImageSource.FromFile("Images/ ImageButtons/buttonblue.png");
-        public static ImageSource ButtonPickerRed { get; } = ImageSource.FromFile("Images/ ImageButtons/buttonred.png");
+        public static ImageSource ButtonPickerBlue { get; } = ImageSource.FromFile("Resources/Images/ImageButtons/buttonblue.png");
+        public static ImageSource ButtonPickerRed { get; } = ImageSource.FromFile("Resources/Images/ImageButtons/buttonred.png");
     }
+
 }

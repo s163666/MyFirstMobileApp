@@ -4,6 +4,7 @@ public partial class UpdatableCollectionWIconsView : ContentPage
 {
 	public UpdatableCollectionWIconsView()
 	{
-		InitializeComponent();
-	}
+        InitializeComponent();
+        BindingContext = new UpdateableCollectionViewModel();
+    }
 }

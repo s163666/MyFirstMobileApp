@@ -50,6 +50,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\ImageButtons\buttonblue.png" />
+	  <None Remove="Resources\Images\ImageButtons\buttonred.png" />
+	  <None Remove="Resources\Images\ImageButtons\buttonsubmit.png" />
+	  <None Remove="Resources\Images\ImageButtons\dpbuttonblue.png" />
+	  <None Remove="Resources\Images\ImageButtons\dpbuttonred.png" />
+	  <None Remove="Resources\Images\ImageButtons\iconsdelete.png" />
+	  <None Remove="Resources\Images\ImageButtons\iconsedit.png" />
 	  <None Remove="Resources\Images\MAD\alex.jpg" />
 	  <None Remove="Resources\Images\MAD\gloria.jpg" />
 	  <None Remove="Resources\Images\MAD\king.jpg" />
@@ -59,6 +66,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiImage Include="Resources\Images\ImageButtons\buttonblue.png" />
+	  <MauiImage Include="Resources\Images\ImageButtons\buttonred.png" />
+	  <MauiImage Include="Resources\Images\ImageButtons\buttonsubmit.png" />
+	  <MauiImage Include="Resources\Images\ImageButtons\dpbuttonblue.png" />
+	  <MauiImage Include="Resources\Images\ImageButtons\dpbuttonred.png" />
+	  <MauiImage Include="Resources\Images\ImageButtons\iconsdelete.png" />
+	  <MauiImage Include="Resources\Images\ImageButtons\iconsedit.png" />
 	  <MauiImage Include="Resources\Images\MAD\alex.jpg" />
 	  <MauiImage Include="Resources\Images\MAD\gloria.jpg" />
 	  <MauiImage Include="Resources\Images\MAD\king.jpg" />
@@ -144,6 +158,39 @@
 	  <MauiXaml Update="ViewViewModels\Layouts\StackLayoutContents\StackLayoutView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="ViewViewModels\Picker\DatePicker\DatePickerMenuView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ViewViewModels\Picker\DatePicker\DatePickerVMView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ViewViewModels\Picker\DatePicker\DatePickerXAMLView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ViewViewModels\Picker\Entry\EntryResultsView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ViewViewModels\Picker\Entry\EntryVMView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ViewViewModels\Picker\Entry\EntryXAMLView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ViewViewModels\Picker\Picker\PickerResultsView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ViewViewModels\Picker\Picker\PickerVMView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ViewViewModels\Picker\Picker\PickerXAMLView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="ViewViewModels\InteractiveControls\Stepper\" />
+	  <Folder Include="ViewViewModels\InteractiveControls\Switch\" />
+	  <Folder Include="ViewViewModels\InteractiveControls\Slider\" />
 	</ItemGroup>
 
 </Project>

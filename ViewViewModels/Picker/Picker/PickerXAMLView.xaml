@@ -3,21 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyFirstMobileApp.ViewViewModels.Picker.Picker.PickerXAMLView"
              Title="{Binding Title}">
-    <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+</ContentPage>
 
-
+<StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
     <Label Text="Click Below" FontSize="Large" FontAttributes="Bold,Italic" Margin="20" MinimumWidthRequest="130" HorizontalOptions="Center" />
-
-
     <BoxView HeightRequest="3" BackgroundColor="#000000" WidthRequest="375" />
-
-
     <StackLayout>
-
-
         <Picker x:Name="pickerXAML" Title="Select on Awesome 70's Muscle Car" FontSize="Large" TitleColor="DarkRed" SelectedItem="{Binding SelectedItem}" >
-
-
             <Picker.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
                     <x:String>1970 Chevy Corvette</x:String>
@@ -27,20 +19,8 @@
                     <x:String>1972 Pontiac GTO</x:String>
                 </x:Array>
             </Picker.ItemsSource>
-
-
         </Picker>
-
-
         <BoxView HeightRequest="3" BackgroundColor="#000000" WidthRequest="375" />
-
-
         <ImageButton BackgroundColor="Transparent" Source="{Binding SubmitButton}" Command="{Binding OnSubmitClicked}" Margin="10" />
+</StackLayout>
 
-
-    </StackLayout>
-
-
-    </StackLayout>
-
-</ContentPage>

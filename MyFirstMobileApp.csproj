@@ -137,6 +137,9 @@
 	  <MauiXaml Update="ViewViewModels\Collections\MenuView\MadagascarCollectionView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="ViewViewModels\InteractiveControls\ControlsMenu\ControlsMenuView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="ViewViewModels\Layouts\AbsoluteLayoutContents\AbsoluteLayoutView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

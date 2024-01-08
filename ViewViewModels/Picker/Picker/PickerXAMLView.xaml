@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyFirstMobileApp.ViewViewModels.Picker.Picker.PickerXAMLView"
              Title="{Binding Title}">
-</ContentPage>
+
 
 <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
     <Label Text="Click Below" FontSize="Large" FontAttributes="Bold,Italic" Margin="20" MinimumWidthRequest="130" HorizontalOptions="Center" />
@@ -22,5 +22,7 @@
         </Picker>
         <BoxView HeightRequest="3" BackgroundColor="#000000" WidthRequest="375" />
         <ImageButton BackgroundColor="Transparent" Source="{Binding SubmitButton}" Command="{Binding OnSubmitClicked}" Margin="10" />
+    </StackLayout>
 </StackLayout>
+</ContentPage>
 
